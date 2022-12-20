@@ -1,0 +1,258 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6652674600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should navigate to desktop page successfully",
+        "description": "",
+        "id": "home-page-test;user-should-navigate-to-desktop-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 800687400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 178527600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i am on home page",
+            "match": {
+              "location": "HomePageSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i mouse hover to desktop tab",
+            "match": {
+              "location": "HomePageSteps.iMouseHoverToDesktopTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i click on show all desktop",
+            "match": {
+              "location": "HomePageSteps.iClickOnShowAllDesktop()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify desktop text message",
+            "match": {
+              "location": "HomePageSteps.verifyDesktopTextMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5364775700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User should navigate to laptop and notebooks page successfully",
+        "description": "",
+        "id": "home-page-test;user-should-navigate-to-laptop-and-notebooks-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 802474700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "i am on home page",
+            "match": {
+              "location": "HomePageSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "i mouse hover to laptop and desktop tab",
+            "match": {
+              "location": "HomePageSteps.iMouseHoverToLaptopAndDesktopTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "i click on show all laptop and notebooks",
+            "match": {
+              "location": "HomePageSteps.iClickOnShowAllLaptopAndNotebooks()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "verify laptop and notebooks text",
+            "match": {
+              "location": "HomePageSteps.verifyLaptopAndNotebooksText()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5331007200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "User should navigate to components page successfully",
+        "description": "",
+        "id": "home-page-test;user-should-navigate-to-components-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 800546200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "i am on home page",
+            "match": {
+              "location": "HomePageSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "i mouse hover to component tab",
+            "match": {
+              "location": "HomePageSteps.iMouseHoverToComponentTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "i click on show all components",
+            "match": {
+              "location": "HomePageSteps.iClickOnShowAllComponents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "verify components text",
+            "match": {
+              "location": "HomePageSteps.verifyComponentsText()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Home Page Test",
+    "description": "as a user i want to navigate to tabs",
+    "id": "home-page-test",
+    "keyword": "Feature",
+    "uri": "homepage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]
